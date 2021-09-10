@@ -1812,7 +1812,7 @@ section {
   background-color: #fafafa;
   padding: 60px;
   position: relative;
-  text-align: left;
+  text-align: justify;
   margin: 20px 0;
 }
 
@@ -1823,6 +1823,8 @@ section {
   font-style: italic;
   font-weight: 500;
   font-size: 22px;
+  text-align: justify;
+  
 }
 
 .blog .entry .entry-content blockquote::after {
@@ -1835,6 +1837,7 @@ section {
   background-color: #012970;
   margin-top: 20px;
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 .blog .entry .entry-footer {
