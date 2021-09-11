@@ -128,6 +128,33 @@ section {
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
+.buttonregister {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.buttonreg1 {
+  background-color: #02b150; 
+  color: white; 
+  border: 2px solid #02b150;
+}
+
+.buttonreg1:hover {
+  background-color: #6eff5b;
+  color: white;
+  border: 2px solid #6eff5b;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -248,6 +275,7 @@ section {
 .navbar .active:focus,
 .navbar li:hover > a {
   color: #02b150;
+  text-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .navbar .getstarted {
@@ -261,6 +289,7 @@ section {
 .navbar .getstarted:hover {
   color: #fff;
   background: #73f359;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .navbar .dropdown ul {
@@ -1588,7 +1617,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-  color: #444444;
+  color:#01215d;
   background: #fafbff;
   padding: 30px;
 }
